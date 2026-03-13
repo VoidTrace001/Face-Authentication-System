@@ -1,0 +1,68 @@
+# ========================
+# Python
+# ========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.pyo
+
+# ========================
+# Virtual Environments
+# ========================
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# ========================
+# Environment Variables
+# ========================
+.env
+.env.local
+.env.production
+
+# ========================
+# Face Database (sensitive user data)
+# ========================
+# Uncomment below to exclude all face data from commits:
+# database/
+
+# ========================
+# IDE & Editor Files
+# ========================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ========================
+# Logs & Temp Files
+# ========================
+*.log
+logs/
+tmp/
+temp/
+
+# ========================
+# dlib / face-recognition build artifacts
+# ========================
+*.dat
+shape_predictor_68_face_landmarks.dat
+dlib_face_recognition_resnet_model_v1.dat
+
+# ========================
+# OS Files
+# ========================
+.DS_Store
+desktop.ini
